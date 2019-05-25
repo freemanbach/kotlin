@@ -6,6 +6,12 @@ java -jar kotex1.jar
 
 */
 
+fun getValue() {
+	print("Enter a string value? ")
+	var mess = readLine()!!
+	println("Your input is: $mess")
+}
+
 fun prtMess(mess: String) {
 
 	println(mess)
@@ -25,4 +31,5 @@ fun main(args: Array<String>) {
 
 	println("Hello planet")
 	prtMess("what is meaning of life? ")
+	getValue()
 }
